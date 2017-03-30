@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+h2 {
+	margin-top: 10px !important;
+}
+
+.jumbotron {
+	text-align: center;
+	margin-bottom: 0px !important;
+	padding: 0px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px;
+}
+
+.header {
+  height: 800px;
+  text-align: center; 
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	color: #fff;
+	line-height: 100px; 
+	font-size: 80px;
+	margin-top: 0;
+	margin-bottom: 80px;
+	text-transform: uppercase; 
+}
+
+.header p {
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+	text-transform: uppercase; 
+}
+
+.mainbtn {
+	color: #117bff;
+	background: #FFF;
+	font-size: medium;
+	padding: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	transition: background .5s; 
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav { 
+	background: #000;
+	height: 80px; 
+	width: 100%;
+	text-align: center;
+}
+
+.nav ul {
+	height: 80px;
+	list-style: none;
+	margin: 0 auto; 
+	padding: 0;
+}
+
+.nav ul li {
+	color: #fff;
+	display: inline-block; 
+	height: 80px;
+	line-height: 80px; 
+	list-style: none;
+	padding: 0 10px;
+	transition: background .5s; 
+}
+
+#active {
+	background: #117bff;
+}
+
+.white {
+	color: white;
+}
+
+.mainbtn:hover, .nav ul li:hover {
+	background: #117bff;
+	color: #FFF;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+.container-fluid {
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+
+.crunchtext {
+	line-height: 150%;
+	text-align: left;
+}
+
+.smallimg {
+	width: 300px;
+}
+
+.main {
+	font-size: 140%;
+}
+
+.main img {
+	float: left;
+	margin: 50px 80px 50px 0;
+}
+
+.main h2 {
+	text-align: center;
+}
+
+.fixed-nav {
+	font-family: 'Roboto', sans serif;
+}
+
+.main p {
+	text-align: center;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container .footer {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.caption h3 {
+	text-size: 1em;
+}
+
+.mid {
+	text-align: left;
+	display: inline-block;
+}
+
+.mainblue {
+	color: white;
+}
+
+.white a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.white a:hover {
+	color: #117bff;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+.black {
+	color: black;
+}
+
+.black h1 {
+	color: black;
+}
+
+.black p {
+	color: black;
+}
+
+.broken {
+	color: red;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
